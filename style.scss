@@ -1,0 +1,21 @@
+//This is a comment
+
+$myColor: rgb(200, 30, 40);
+
+h1{
+    color: brown; 
+}
+
+ul{
+    li{
+        h1{
+            color: $myColor;
+        }
+        h2{
+            color: red;
+        }
+        h3{
+            
+        }
+    }
+}
