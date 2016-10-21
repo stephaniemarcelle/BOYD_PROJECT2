@@ -1,0 +1,59 @@
+<!doctype html>
+
+<html>
+    
+    <head>
+    <title>Pumpkinland | Join Us</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Ruthie" rel="stylesheet">
+    </head>
+    
+    <body>
+        <h1 class="title">Pumpkinland</h1>
+        <div class="everything">
+        <nav>
+            <ul class="nav">
+                <li id="page"><a href="home.html">Home</a></li>
+                <li id="page"><a href="about.html">About</a></li>
+                <li id="page"><a href="testimonials.html">Our Citizens</a></li>
+                <li id="page"><a href="contact.html">Join Us</a></li>
+            </ul>
+        </nav>
+        
+        <div id="form">
+        <form action="javascript:submitForm()">
+            <fieldset>
+                <h2 id="formtitle">Order Your Pumpkin Today!</h2>
+                <p></p>
+                <h3>What's your name?</h3>
+                <input type="text" name="firstname" placeholder="First Name">
+                <input type="text" name="lastname" placeholder="Last Name">
+                <h3>What's your gender?</h3>
+                Male <input type="radio" name="gender" value="male"> 
+                Female <input type="radio" name="gender" value="female">
+                <hr>
+                <h3>What's your favorite color?</h3>
+                <input type="color" name="favoriteColor">
+                <hr>
+                <h3>What's your scary story?</h3>
+                <textarea name="story" rows="15" cols="45" maxlength="2500"></textarea>
+                <hr>
+                <h3>What's your email address?</h3>
+                <input type="email" name="email" placeholder="Email Address">
+                <h3>What's your mailing address?</h3>
+                <input type="text" name="address" placeholder="Address">
+                <input type="text" name="citystate" placeholder="City, State">
+                <input tpe="text" name="zip" placeholder="Zip Code">
+                <hr>
+                <input id="submit" type="submit">
+            </fieldset>
+        </form>
+        </div>
+            
+        <hr>
+        </div>
+    </body>
+
+</html>

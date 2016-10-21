@@ -1,21 +1,252 @@
 //This is a comment
 
-$myColor: rgb(200, 30, 40);
+$myColor: rgb(255, 79, 0);
+$myColor2: rgb(108, 57, 30);
+
+body{
+	background-color: $myColor2;  
+}
+
+button{
+	border: none; 
+}
+
+#welcomebutton{ 
+	background-color: red; 
+	height: 50px; 
+	width: 500px; 
+	
+	font-size: 25px; 
+	
+	margin-left: 475px; 
+	margin-top: 250px; 
+	
+	transition: 1s all;
+}
+
+#welcomebutton:hover{
+	background-color: black; 
+	
+	color: white; 
+	
+	transition: 1s all; 
+}
+
+.opening{
+	display: none; 
+	background-image: url(Images/black-2909_640.jpg);
+	height: 1000px; 
+	width: 2000px; 
+}
+
+img{
+	margin-left: 280px; 
+	margin-top: 30px;
+}
+
+#entersite{
+	display: none; 
+	background-color: red; 
+	
+	height: 50px; 
+	width: 500px; 
+	
+	font-size: 25px; 
+	
+	margin-left: 475px; 
+	margin-top: 250px; 
+}
+
+#entersite:hover{
+	background-color: black; 
+	
+	color: white; 
+	
+	transition: 1s all; 
+}
+
+a{
+	text-decoration: none; 
+	color: black; 
+}
+
+a:hover{
+	color: white; 
+}
 
 h1{
-    color: brown; 
+	padding-top: 25px;
+	padding-bottom: 25px; 
+	
+	font-family: 'Ruthie', cursive;
+	font-size: 90px; 
+	text-align: center;
+	color: white;
+}
+
+.title{
+	background-color: $myColor; 
+	
+	height: 100px; 
+	width: 1183px; 
+	margin-right: 75px; 
+	margin-left: 75px; 
+	
+	border-top: solid 5px #006400; 
+}
+
+h2{
+	text-align: center;
+}
+
+.everything{
+	background: ghostwhite; 
+	margin-right: 75px; 
+	margin-left: 75px; 
+	margin-top: 10px; 
+	margin-bottom: 50px; 
+}
+
+nav ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+nav li{
+	float: left; 
+}
+
+nav li a{
+	display: block;
+    color: white;
+    text-align: center;
+	padding-top: 10px;
+    padding-left: 16px;
+	padding-right: 16px;
+	padding-bottom: 10px;
+    text-decoration: none;
+}
+
+nav li a:hover{
+	background-color: $myColor;
 }
 
 ul{
     li{
         h1{
+			font-family: 'Rochester', cursive;
             color: $myColor;
         }
         h2{
+			font-family: 'Rochester', cursive;
             color: red;
         }
-        h3{
-            
+		h3{
+			font-family: 'Rochester', cursive;
+			font-size: 18px;
+            color: darkred;
+			text-align: center; 
         }
     }
+}
+
+p{
+	margin-left: 75px; 
+	margin-right: 75px; 
+	margin-bottom: 50px; 
+	text-align: center;
+}
+
+.expander a{
+	cursor: pointer; 
+	float: right; 
+	margin-right: 190px; 
+	border-bottom: solid 2px transparent; 
+	
+	font-family: 'Ruthie', cursive;
+	font-size: 35px; 
+	color: ghostwhite;
+	
+	transition: 0.5s all; 
+}
+
+.expander a:hover{
+	border-bottom: solid 2px $myColor; 
+	
+	color: $myColor; 
+	
+	transition: 0.5s all; 
+}
+
+.spooky{
+	background-color: black;
+}
+
+#boo{
+	margin-left: 350px; 
+}
+
+#doubleboo{
+	margin-left: 350px; 
+	opacity: 50%;
+}
+
+#spooky{ 
+	background-color: dimgray; 
+	height: 50px; 
+	width: 500px; 
+	
+	font-size: 25px; 
+	
+	margin-left: 415px;
+	margin-top: 125px; 
+	
+	transition: 1s all;
+}
+
+#spooky:hover{
+	background-color: black; 
+	
+	color: white; 
+	
+	transition: 1s all; 
+}
+
+#history1{
+	display: none; 
+}
+
+#history2{
+	display: none; 
+}
+
+#history3{
+	display: none; 
+}
+
+#history4{
+	display: none; 
+}
+
+#history5{
+	display: none; 
+}
+
+form{
+	text-align: center;
+	border-style: none;
+}
+
+#formtitle{
+	background-color: yellow; 
+	padding: 15px;
+}
+
+#submit{
+	background-color: red;
+	height: 25px;
+	width: 100px;
 }
